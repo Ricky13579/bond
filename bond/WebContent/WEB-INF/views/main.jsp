@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../resources/css/w3.css">
 <link rel="stylesheet" type="text/css" href="../resources/css/user.css">
 <script type="text/javascript" src="../resources/js/jquery-3.7.1.min.js"></script>
-<title>재밌다 하하하</title>
+<title>스파이 패밀리</title>
 <script type="text/javascript">
 	$(document).ready(function(){		
 		
@@ -15,21 +15,21 @@
 			var sid="${SID}";
 			if(!sid || sid!='null'){
 				
-			$(location).attr('href','/member/login.bnd');
+			$(location).attr('href','/member/login.bond');
 			}else{
 				alert('로그인 되어있으므로 다시 돌아가세요');
 			}
 		});
 		
 		$('#logout').click(function(){
-			$(location).attr('href','/member/logoutProc.bnd');
+			$(location).attr('href','/member/logoutProc.bond');
 		});
 		
 		$('#join').click(function(){
 			// 로그인 여부 검사
 			var sid='${SID}';
 			if(!sid || sid !='null'){
-				$(location).attr('href','/member/join.bnd');
+				$(location).attr('href','/member/join.bond');
 			}else{
 				return;
 			}
