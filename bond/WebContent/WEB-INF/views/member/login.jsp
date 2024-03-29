@@ -11,11 +11,11 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#home').click(function(){
-			$(location).attr('href','/main.nika');
+			$(location).attr('href','/main.bnd');
 		});
 		
 		$('#join').click(function(){
-			$(location).attr('href','/member/join.nika');
+			$(location).attr('href','/member/join.bnd');
 		})
 		
 		$('#login').click(function(){
@@ -32,7 +32,7 @@
 				return;
 			}
 
-			$('#frm').attr('method','GET').attr('action','/member/loginProc.nika');
+			$('#frm').attr('method','GET').attr('action','/member/loginProc.bnd');
 			$('#frm').submit();
 		});
 	});

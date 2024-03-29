@@ -73,7 +73,7 @@
 			$('#idmsg:not(".w3-hide")').addClass('w3-hide');
 
 	        $.ajax({
-	            url: 'http://localhost/member/idCheck.nika',
+	            url: 'http://localhost/member/idCheck.bnd',
 	            type: 'POST',
 	            dataType: 'text',
 	            data: {
@@ -112,7 +112,7 @@
 <body>
     <div class="w3-content mxw650">
         <h1 class="w3-blue w3-center w3-padding w3-card-4">회원가입</h1>
-        <form method="GET" action="/member/joinProc.nika" name="frm" id="frm" 
+        <form method="GET" action="/member/joinProc.bnd" name="frm" id="frm" 
                 class="w3-col w3-light-grey mgt20 w3-card-4 w3-padding pdh30">
             <div class="w3-col w3-padding">
                 <label for="name" class="w3-col m3 lbl w3-text-gray w3-right-align">이 름 : </label>

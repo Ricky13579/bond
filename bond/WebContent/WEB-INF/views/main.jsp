@@ -15,21 +15,21 @@
 			var sid="${SID}";
 			if(!sid || sid!='null'){
 				
-			$(location).attr('href','/member/login.nika');
+			$(location).attr('href','/member/login.bnd');
 			}else{
 				alert('로그인 되어있으므로 다시 돌아가세요');
 			}
 		});
 		
 		$('#logout').click(function(){
-			$(location).attr('href','/member/logoutProc.nika');
+			$(location).attr('href','/member/logoutProc.bnd');
 		});
 		
 		$('#join').click(function(){
 			// 로그인 여부 검사
 			var sid='${SID}';
 			if(!sid || sid !='null'){
-				$(location).attr('href','/member/join.nika');
+				$(location).attr('href','/member/join.bnd');
 			}else{
 				return;
 			}
