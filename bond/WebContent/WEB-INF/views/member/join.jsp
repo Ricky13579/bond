@@ -73,7 +73,7 @@
 			$('#idmsg:not(".w3-hide")').addClass('w3-hide');
 
 	        $.ajax({
-	            url: 'http://localhost/member/idCheck.bnd',
+	            url: 'http://localhost/member/IdCheck.bond',
 	            type: 'POST',
 	            dataType: 'text',
 	            data: {

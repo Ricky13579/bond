@@ -11,11 +11,11 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#home').click(function(){
-			$(location).attr('href','/main.bnd');
+			$(location).attr('href','/main.bond');
 		});
 		
 		$('#join').click(function(){
-			$(location).attr('href','/member/join.bnd');
+			$(location).attr('href','/member/join.bond');
 		})
 		
 		$('#login').click(function(){
@@ -32,7 +32,7 @@
 				return;
 			}
 
-			$('#frm').attr('method','GET').attr('action','/member/loginProc.bnd');
+			$('#frm').attr('method','GET').attr('action','/member/loginProc.bond');
 			$('#frm').submit();
 		});
 	});
