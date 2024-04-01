@@ -45,7 +45,7 @@ public class JoinProc implements BondInter {
 		// 결과에 따라 뷰 처리해주고
 		if(cnt != 1) {
 			// 회원가입에 실패한 경우
-			view = "/Bond/join.bond";
+			view = "/member/join.bond";
 		}else {
 			// 회원가입에 성공한 경우
 			// 로그인 처리를 해준다.

@@ -16,8 +16,8 @@ public class IdCheck implements BondInter {
 		
 		String sid = req.getParameter("id");
 		
-		BondDao mDao = new BondDao();
-		int cnt = mDao.getIdCnt(sid);
+		BondDao bDao = new BondDao();
+		int cnt = bDao.getIdCnt(sid);
 		// 응답 문서 만들고
 		String view = "YES";
 		if(cnt !=0) {

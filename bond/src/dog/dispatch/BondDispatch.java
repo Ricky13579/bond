@@ -16,7 +16,7 @@ import dog.controller.*;
  *			2024.03.29
  * 
  */
-@WebServlet("*.bond")
+@WebServlet({"*.bond"})
 public class BondDispatch extends HttpServlet {
 
 	/**
@@ -59,6 +59,7 @@ public class BondDispatch extends HttpServlet {
 				BondInter val = (BondInter) tmp.newInstance();
 				
 				map.put(key, val);
+				
 			}catch(Exception e) {}
 		}
 	}

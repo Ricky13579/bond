@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>태양신 니카</title>
+<title>제임스 본드</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="/resources/css/w3.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/user.css">

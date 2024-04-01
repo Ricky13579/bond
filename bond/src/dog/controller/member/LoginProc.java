@@ -15,7 +15,7 @@ public class LoginProc implements BondInter {
 		
 		// 리다이렉트 설정
 				req.setAttribute("isRedirect", true);
-				String view = "/main.nika";
+				String view = "/main.bond";
 				
 				// 파라미터 꺼내고
 				String sid = req.getParameter("id");
@@ -26,7 +26,7 @@ public class LoginProc implements BondInter {
 				//System.out.println("############## cnt : " + cnt);
 				// 결과에 따라 조건 처리
 				if(cnt != 1) {
-					view = "/member/login.nika";
+					view = "/member/login.bond";
 					return view;
 				}
 				
