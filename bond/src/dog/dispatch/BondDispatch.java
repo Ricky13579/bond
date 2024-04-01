@@ -16,7 +16,7 @@ import dog.controller.*;
  *			2024.03.29
  * 
  */
-@WebServlet({"*.bond"})
+@WebServlet("*.bond")
 public class BondDispatch extends HttpServlet {
 
 	/**

@@ -39,7 +39,7 @@
 </head>
 <body>
 	<div class="w3-center w3-content mxw650">
-		<h1 class=" w3-aqua w3-card-4 w3-padding">심장 소리 재밌어~~~ 하하하하하하</h1>
+		<h1 class=" w3-aqua w3-card-4 w3-padding">아냐 씨~~~~~~~~~</h1>
 
 		<div class="w3-col mgt10">
 <!-- 로그인에 성공하면 session에 SID라는 속성으로 아이디를 기억시켜 놓을 것이므로 -->

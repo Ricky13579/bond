@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
-<c:direct url="/main.bond"/>
+<c:redirect url="/main.bond"/>
 
 </head>
 <body>

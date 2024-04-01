@@ -20,7 +20,7 @@ public class BondDBCP {
 	public BondDBCP() {
 		try {
 			InitialContext context=new InitialContext();
-			ds=(DataSource) context.lookup("jdbc:/comp/env/jdbc/TestDB");
+			ds=(DataSource) context.lookup("java:/comp/env/jdbc/TestDB");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
