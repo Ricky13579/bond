@@ -63,7 +63,7 @@ public class BoardVO {
 	public void setSdate() {
 		SimpleDateFormat form1 = new SimpleDateFormat("yyyy.MM.dd");
 		SimpleDateFormat form2= new SimpleDateFormat("HH:mm:ss");
-		sdate = form1.format(wdate) + form2.format(wtime);
+		sdate = form1.format(wdate) +" " +form2.format(wtime);
 	}
 	public String getSname() {
 		return sname;

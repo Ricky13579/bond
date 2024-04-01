@@ -57,7 +57,7 @@ public class GboardDao {
 				String body = rs.getString("body");
 				String sname = rs.getString("sname");
 				Date wdate = rs.getDate("wdate");
-				Time wtime = rs.getTime("wtime");
+				Time wtime = rs.getTime("wdate");
 				
 				// vo 만들어서 채우고
 				BoardVO vo = new BoardVO();

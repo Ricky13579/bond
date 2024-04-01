@@ -8,15 +8,15 @@ public class GboardSQL {
 		StringBuffer buff = new StringBuffer();
 		switch(code) {
 		case SEL_ALL_LIST:
-			buff.append(" SELECT ");
-			buff.append(" 	gno, mno, id, filename sname, wdate, body ");
-			buff.append(" FROM ");
-			buff.append(" 	member, avatar, gboard ");
-			buff.append(" WHERE ");
-			buff.append(" 	mno = writer ");
-			buff.append(" 	AND avatar = ano ");
+			buff.append("SELECT ");
+			buff.append("	gno, mno, id, filename sname, wdate, body ");
+			buff.append("FROM ");
+			buff.append("	member, avatar, gboard ");
+			buff.append("WHERE ");
+			buff.append("	mno = writer ");
+			buff.append("	AND avatar = ano ");
 			buff.append("ORDER BY ");
-			buff.append(" wdate DESC ");
+			buff.append("	wdate DESC ");
 			break;
 			
 		case SEL_ID_CNT:

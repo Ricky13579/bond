@@ -37,8 +37,6 @@ public class Gboard implements BondInter {
 		ArrayList<BoardVO> list = gDao.getList();
 		// 리스트를 화면에 전달하는 방법 - 요청 객체 속성으로 등록해주면 된다.
 		req.setAttribute("List", list);
-		
-		
 		return view;
 	}
 

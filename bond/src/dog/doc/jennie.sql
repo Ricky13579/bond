@@ -57,9 +57,9 @@ ORDER BY
 
 -- 'jennie'가 작성한 방명록 글 개수 조회
 SELECT
-    count() cnt
+    count(*) cnt
 FROM
-    member, board, gboard
+    member, gboard
 WHERE
     id='jennie'
     and mno = writer
