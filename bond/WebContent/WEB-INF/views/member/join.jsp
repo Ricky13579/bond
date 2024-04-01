@@ -29,6 +29,18 @@
             }
         });
         
+        $('#reset').click(function(){
+        	document.getElementById('frm').reset();
+            // 아바타 선택 폼 숨기기
+            $('#fAvt, #mAvt').slideUp();
+            // 아이디 체크 메세지 숨기기
+            $('#idmsg').addClass('w3-hide');
+        });
+        
+        $('#home').click(function(){
+        	$(location).href='/main.bond';
+        });
+        
         function tCheck(t, v){
         	if(!v){
 	        	t.value = '';
@@ -112,7 +124,7 @@
 <body>
     <div class="w3-content mxw650">
         <h1 class="w3-blue w3-center w3-padding w3-card-4">회원가입</h1>
-        <form method="GET" action="/member/joinProc.bnd" name="frm" id="frm" 
+        <form method="GET" action="/member/joinProc.bond" name="frm" id="frm" 
                 class="w3-col w3-light-grey mgt20 w3-card-4 w3-padding pdh30">
             <div class="w3-col w3-padding">
                 <label for="name" class="w3-col m3 lbl w3-text-gray w3-right-align">이 름 : </label>
