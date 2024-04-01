@@ -134,7 +134,7 @@
 		</form>
 	</div>
 	
-<c:if test="${empty MSG}">
+<c:if test="${not empty MSG}">
 	<div id="msg" class="w3-modal">
 		<div class="w3-modal-content mxw550">
 			<header class="w3-container w3-blue"> 
