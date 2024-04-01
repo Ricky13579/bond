@@ -66,6 +66,7 @@
 		redirect ]
 			성공 : /main.bond
 			실패 : /member/join.bond
+------------------------------------------------------------------------------------------------------------
 
 # 방명록 관련 요청 설계
 
@@ -75,6 +76,13 @@
 컨트롤러 : dog.controller.gboard.Gboard
 응답문서 : /WEB-INF/views/gboard/gboard.jsp
 
+# 방명록 글 등록 요청 설계
+요청내용 : /gboard/gWriteProc.bond
+파라미터 : id, body
+컨트롤러 : dog.controller.gboard.GwriteProc
+응답문서 : 
+		redirect ] gboard/gboard.bond
+			
 
 
 
