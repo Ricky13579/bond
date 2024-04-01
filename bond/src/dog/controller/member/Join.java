@@ -18,7 +18,7 @@ public class Join implements BondInter {
 		if(sid != null) {
 			// 로그인이 되어있으면
 			req.setAttribute("isRedirect", true);
-			return "/main.bnd";
+			return "/main.bond";
 		}
 		String view="member/join";
 		return view;
